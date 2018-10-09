@@ -55,4 +55,6 @@ task :quote do
   # Your code goes below.
   # =====================================================================
 
+  ap(quotations.at(rand(12)))
+
 end

@@ -12,4 +12,6 @@ task :fortune do
   # Your code goes below.
   # =====================================================================
 
+    ap(fortunes.at(rand(4)))
+
 end

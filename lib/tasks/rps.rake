@@ -1,6 +1,8 @@
 desc "Play rock in rock-paper-scissors"
 task :play_rock do
   # Print the move we played
+  
+  rps = [rock, paper, scissors]
 
   # Select a random move for the computer
 
